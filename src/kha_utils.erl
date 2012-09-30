@@ -8,6 +8,7 @@
 
 -module(kha_utils).
 
+-include_lib("kha/include/common.hrl").
 -include("kha.hrl").
 
 -export([to_int/1,
